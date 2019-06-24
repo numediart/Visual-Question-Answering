@@ -2,9 +2,9 @@
 
 Ce repository fournit une implémentation du papier : [Bottom-Up and Top-Down Attention for Image Captioning and Visual Question Answering](https://arxiv.org/abs/1707.07998)
 
-Le code de ce repository peut être directement utilisé sur [ce colab](https://colab.research.google.com/drive/1nIXGzbOvHQPIbDKqcmBwccH21K7GPtRE). Le fichier ipynb utilisé peut également être téléchargé [ici](https://github.com/numediart/Visual-Question-Answering/blob/master/VQA_handsonai.ipynb).
+Le code de ce repository peut être directement utilisé sur [ce colab](https://colab.research.google.com/drive/1nIXGzbOvHQPIbDKqcmBwccH21K7GPtRE). Le fichier ipynb correspondant est accessible [ici](https://github.com/numediart/Visual-Question-Answering/blob/master/VQA_handsonai.ipynb).
 
-Le Visual Question Answering (VQA) est une discipline informatique ou la machine doit répondre à une question formée en langage naturel (et non pas en mots clé) a propos d'une scène visuelle. L'entrée du modèle est donc une question et une image, la sortie est une classe qui correspond a un mot ou un groupe de mot (i.e. il existe la classe "pomme" et la classe "feu rouge").
+Le Visual Question Answering (VQA) est une discipline informatique où la machine doit répondre à une question formée en langage naturel (et non pas en mots-clés) à propos d'une scène visuelle. L'entrée du modèle est donc une question et une image, la sortie est une classe qui correspond a un mot ou un groupe de mots (i.e. il existe la classe "pomme" et la classe "feu rouge").
 
 <p align="center">
 <img src="https://visualqa.org/static/img/challenge.png" width="500px" align="center" />
