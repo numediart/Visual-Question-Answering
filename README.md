@@ -57,13 +57,14 @@ Il est possible d'utiliser le modèle sur ses propres données. Voici la command
 python main.py  --inference True \
 		--ckpt ckpt/model_0.5590.pth \
 		--image example.jpg \
-		--question "What is the man eating ?"
+		--question "What is the man holding ?"
 ```
+<img src="https://github.com/numediart/Visual-Question-Answering/blob/master/example.jpg?raw=true&s=100" width="200" />
 
 La sortie est :
 ```
 loading dictionary from data/dictionary.pkl
-Question: What is the man eating ?
+Question: What is the man holding ?
 Answer: banana
 ```
 
