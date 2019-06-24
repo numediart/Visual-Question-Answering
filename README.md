@@ -1,6 +1,6 @@
 # Visual-Question-Answering
 
-Ce repository fournit une implémentation du papier : [Bottom-Up and Top-Down Attention for Image Captioning and Visual Question Answering](https://arxiv.org/abs/1707.07998)
+Ce repository fournit une implémentation du papier : [Bottom-Up and Top-Down Attention for Image Captioning and Visual Question Answering](https://arxiv.org/abs/1707.07998). Ce code est une adapatation de [l'implémentation open-source](https://github.com/hengyuan-hu/bottom-up-attention-vqa) proposée par l'utilisateur hengyuan-yu.
 
 Le code de ce repository peut être directement utilisé sur [ce colab](https://colab.research.google.com/drive/1nIXGzbOvHQPIbDKqcmBwccH21K7GPtRE). Le fichier ipynb correspondant est accessible [ici](https://github.com/numediart/Visual-Question-Answering/blob/master/VQA_handsonai.ipynb).
 
