@@ -75,4 +75,16 @@ Question: What is the man holding ?
 Answer: banana
 ```
 
-     
+D'autres exemples :
+
+```
+loading dictionary from data/dictionary.pkl
+Question: What is the color of the man's hair ?
+Answer: brown
+```
+
+```
+loading dictionary from data/dictionary.pkl
+Question: Is the man handsome and smart ?
+Answer: yes
+```
