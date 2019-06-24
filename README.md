@@ -16,6 +16,13 @@ torchvision 0.2.2<br/>
 Pillow 6.0.0<br/>
 tqdm<br/>
 
+
+|         | GPU     | CPU  | RAM |
+|:-------------:|:-------------:|:-------------:|:-------------:|
+| Training     | 10h | - | 50 Go |
+| Prediction     | 6s | - | 1Mo |
+
+
 ### Training
 Un nouvel entrainement peut être initié avec la commande suivante :
 ```
@@ -40,13 +47,17 @@ Ce qui signifie une précision de bonne réponse à 56%. Plus en détail, voici 
 | Yes/No        | Number     | Other  | Overall |
 |:-------------:|:-------------:|:-------------:|:-------------:|
 | 76.6%      | 36.2% | 49.5% | 55.90% |
+
 Il faut noter que les mauvaises réponses ne sont pas forcément médiocres ou absurdes. Répondre fille au lieu de femme n'est pas correct mais n'est pas trop mauvais, selon l'utilisation qu'on veut faire du modèle.
 
 ### Prediction
 
 Il est possible d'utiliser le modèle sur ses propres données. Voici la commande a utiliser avec le fichier example.jpg fourni dans ce repository:
 ```
-python main.py --inference True --ckpt ckpt/model_0.5590.pth --image example.jpg --question "What is the man eating ?"
+python main.py  --inference True \
+		--ckpt ckpt/model_0.5590.pth \
+		--image example.jpg \
+		--question "What is the man eating ?"
 ```
 
 La sortie est :
