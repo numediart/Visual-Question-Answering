@@ -16,6 +16,8 @@ torchvision 0.2.2<br/>
 Pillow 6.0.0<br/>
 tqdm<br/>
 
+Dézipper data.zip dans le dossier data
+
 
 |         | GPU     | CPU  | RAM |
 |:-------------:|:-------------:|:-------------:|:-------------:|
@@ -23,8 +25,11 @@ tqdm<br/>
 | Prediction     | 6s | - | 1Mo |
 
 
+
 ### Training
-Un nouvel entrainement peut être initié avec la commande suivante :
+Premièrement, télécharger les images MSCOCO [train2014](http://images.cocodataset.org/zips/train2014.zip) et [val2014](http://images.cocodataset.org/zips/val2014.zip) et placer les dossiers dézippés dans "data".
+
+Ensuite, on peut lancer un nouvel entrainement avec la commande suivante :
 ```
 python main.py  
 ```
